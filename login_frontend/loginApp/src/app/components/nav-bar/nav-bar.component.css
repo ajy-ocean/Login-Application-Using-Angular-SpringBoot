@@ -1,0 +1,18 @@
+.toolbar {
+  display: flex; /* Enable flexbox */
+  justify-content: space-between; /* Space out items */
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.example-spacer {
+  flex: 1 1 auto; /* Take available space */
+}
+
+.login-button {
+  margin-right: 50px; /* Add some space from the right edge */
+}
+
+/* Optional: Prevent the toolbar from collapsing */
+mat-toolbar {
+  min-height: 56px; /* Ensure a minimum height for the toolbar */
+}

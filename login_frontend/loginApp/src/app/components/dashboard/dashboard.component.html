@@ -1,0 +1,8 @@
+<div class="bootstrap-wrapper">
+    <div class="container text-center mt">
+        <h5>いらっしゃいませ, Welcome
+            <span *ngIf="user">{{user.name}}</span>
+        </h5>
+        <button (click)="getUser()" mat-flat-button>Get User Details</button>
+    </div>
+</div>
